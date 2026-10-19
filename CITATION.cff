@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use ffxiv-config in your work, please cite it as below."
+title: "ffxiv-config"
+abstract: "ffxiv-config application."
+type: software
+authors:
+  - name: "ffxiv-config contributors"
+
+license: MIT
+version: "0.2.0"
+date-released: "2026-10-19"
+keywords:
+  - "ffxiv-config"
+  - "docs-site"
