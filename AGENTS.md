@@ -16,9 +16,9 @@ tracking files (`ROADMAP.md`, `PLAN.md`, `TODO.md`, `BUGS.md`). Keep them accura
 
 - Content is theme-neutral and mod-agnostic (no theme-specific tokens in docs).
 - Theme specifics belong only in the catalogue.
-- See `.agents/rules/local-conventions.md`.
+- See `.agents/rules/local-conventions.md` and `.agents/rules/release-notes.md`.
 
 ## Invariants
 
-MIT license, SemVer releases, zero-warning builds, community-health files.
+MIT license, SemVer releases (`vMAJOR.MINOR.PATCH`), packaged assets policy, community-health files.
 See `CONTRIBUTING.md` for the full contributor guidelines.
