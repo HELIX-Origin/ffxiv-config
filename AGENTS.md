@@ -1,24 +1,21 @@
 # ffxiv-config
 
-Documentation site (Jekyll, theme-neutral content).
+FFXIV HUD, hotbar, and macro configuration setup for Final Fantasy XIV (Dawntrail 8.x). Distributes packaged `.DAT` character configuration archives.
 
-## Project-local agents
+## Release asset
 
-This repository ships its own self-contained agents ecosystem (`AGENTS.md`, `.agents/`) and
-tracking files (`ROADMAP.md`, `PLAN.md`, `TODO.md`, `BUGS.md`). Keep them accurate as work progresses.
-
-## Build & test
-
-- `bundle exec jekyll build` / `bundle exec jekyll serve`
-- Front matter validated by CI.
+```
+ffxiv-config.zip  — contains character .DAT config files
+```
 
 ## Conventions
 
-- Content is theme-neutral and mod-agnostic (no theme-specific tokens in docs).
-- Theme specifics belong only in the catalogue.
-- See `.agents/rules/local-conventions.md` and `.agents/rules/release-notes.md`.
+- Configuration files are binary `.DAT` files exported from the FFXIV client; never hand-edit them.
+- Documentation under `docs/` is theme-neutral and mod-agnostic prose.
+- Release assets: packaged `.zip` archive attached to every GitHub Release.
+- SemVer (`vMAJOR.MINOR.PATCH`): bump PATCH for config tweaks, MINOR for layout restructures.
 
 ## Invariants
 
-MIT license, SemVer releases (`vMAJOR.MINOR.PATCH`), packaged assets policy, community-health files.
-See `CONTRIBUTING.md` for the full contributor guidelines.
+MIT license, SemVer releases with packaged `.zip` asset, community-health files.
+See `CONTRIBUTING.md` and `.agents/rules/` for full guidelines.
