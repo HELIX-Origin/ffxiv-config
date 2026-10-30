@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled": true,
+  "debug": false,
+  "contextThreshold": 50000,
+  "secretPatterns": [
+    "(?:api[_-]?key|token|secret|password|passwd|pwd)\\s*[:=]\\s*[\"']?[\\w\\-\\.]{8,}[\"']?",
+    "sk-[a-zA-Z0-9]{20,}",
+    "ghp_[a-zA-Z0-9]{36,}",
+    "gho_[a-zA-Z0-9]{36,}"
+  ],
+  "marker": "Essentials: ",
+  "reminderText": "Follow AGENTS.md and .opencode/instructions/* strictly. Use targeted searches over full-file dumps. Record findings in tracking docs. Never guess — research official docs first. Preserve LF line endings. Do not run builds/tests for doc-only changes."
+}

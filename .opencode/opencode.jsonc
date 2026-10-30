@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "model": "opencode/beam-free",
+
+  "instructions": [".opencode/instructions/*.md"],
+
+  "compaction": {
+    "auto": true,
+    "keep": { "tokens": 20000 },
+    "buffer": 24000
+  },
+  "tool_output": {
+    "max_lines": 1500,
+    "max_bytes": 51200
+  },
+
+  "experimental": {
+    "todo": true,
+    "subagent_depth": 1,
+    "background_compaction": true
+  }
+}

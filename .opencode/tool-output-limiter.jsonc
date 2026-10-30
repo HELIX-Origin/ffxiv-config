@@ -1,0 +1,8 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled": true,
+  "debug": false,
+  "contextThreshold": 100000,
+  "marker": "Tool output: ",
+  "reminderText": "Keep tool output minimal. Truncate large file reads. Prefer targeted searches (grep/glob) over full-file dumps. Do not re-read files whose contents are already in context. Summarise tool results instead of quoting them verbatim."
+}

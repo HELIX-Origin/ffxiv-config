@@ -1,0 +1,27 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled": true,
+  "debug": false,
+  "warnThreshold": "50%",
+  "hardThreshold": "80%",
+  "compactThreshold": "70%",
+  "modelLimits": {},
+  "compression": {
+    "mode": "auto",
+    "permission": "allow",
+    "showCompression": false,
+    "summaryBuffer": true,
+    "nudgeFrequency": 5,
+    "iterationNudgeThreshold": 15,
+    "nudgeForce": "soft",
+    "protectedTools": ["task", "skill", "todowrite", "todoread", "compress", "batch", "plan_enter", "plan_exit", "write", "edit"],
+    "protectTags": false,
+    "protectUserMessages": false,
+    "summaryTemplate": "Preserve key decisions, file paths, and open questions. Drop redundant tool output and intermediate reasoning."
+  },
+  "turnProtection": {
+    "enabled": false,
+    "turns": 4
+  },
+  "protectedFilePatterns": []
+}

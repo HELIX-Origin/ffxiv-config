@@ -1,0 +1,8 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled": true,
+  "debug": false,
+  "codeTaskPatterns": ["fix", "implement", "add", "create", "modify", "change", "update", "refactor", "rewrite", "build", "deploy", "install"],
+  "marker": "Research-first: ",
+  "reminderText": "Before any code change, research official primary documentation online and empirically inspect the live state. Guesswork and trial-and-error are banned. Record findings in tracking docs (ROADMAP.md, PLAN.md, TODO.md, BUGS.md, HANDOFF.md)."
+}
