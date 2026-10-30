@@ -1,0 +1,9 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled": true,
+  "debug": false,
+  "contextThreshold": 30000,
+  "marker": "Issue manager: ",
+  "requireIssueForChanges": true,
+  "reminderText": "Track every update and bug fix with a GitHub issue. Before starting work, create or reference an issue (gh issue create / gh issue view). Link commits and PRs to the issue (Closes #N). Apply area/bug/enhancement labels. Close the issue when the fix ships. Do not bundle unrelated changes under one issue."
+}
