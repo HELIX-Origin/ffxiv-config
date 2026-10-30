@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "enabled": true,
+  "debug": false,
+  "contextThreshold": 30000,
+  "marker": "PR manager: ",
+  "mergeMethod": "squash",
+  "autoMerge": true,
+  "reminderText": "Use pull requests for all changes (no direct pushes to main). Create a PR with gh pr create (conventional-commit title, linked issue). Wait for CI to pass, then merge with gh pr merge --squash --delete-branch (auto-merge when checks pass) instead of merging manually. Keep PRs focused and reviewable."
+}
